@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
@@ -16,7 +17,8 @@ module.exports = {
           light: "#20262E",
           dark: "#ffffff",
         },
-        action: "#006BA6",
+        action: "#3b82f6",
+        action_hightlight: "#60a5fa",
         sub: "#E5E5E5",
       },
     },

@@ -10,7 +10,7 @@ type Props = {
 
 const AdminNav: FC<Props> = ({ navItems }) => {
   return (
-    <nav className="h-screen w-60 shadow-lg bg-primary-light">
+    <nav className="h-screen w-60 shadow-lg bg-primary-light sticky top-0">
       <div className="p-8 mb-1">
         <Link href="/admin">
           <span className="text-secondary-light hover:text-action text-xl font-semibold">
