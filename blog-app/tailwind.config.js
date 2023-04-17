@@ -16,7 +16,7 @@ module.exports = {
           light: "#20262E",
           dark: "#ffffff",
         },
-        action: "#4A6FA5",
+        action: "#006BA6",
         sub: "#E5E5E5",
       },
     },

@@ -4,10 +4,16 @@ import React from "react";
 
 type Props = {};
 
-const Admin: NextPage = (props: Props) => {
+const navItems: any = [
+  { href: "/admin/dashboard", lable: "Dashboard" },
+  { href: "/admin/posts", lable: "Posts" },
+  { href: "/admin/users", lable: "Users" },
+  { href: "/admin/comments", lable: "Comments" },
+];
+const Admin: NextPage<Props> = () => {
   return (
     <div>
-      <AdminNav />
+      <AdminNav navItems={navItems} />
     </div>
   );
 };
