@@ -7,11 +7,11 @@ type Props = {
 };
 
 const navItems: any = [
-  { href: "/admin", lable: "Dashboard" },
-  { href: "/admin/posts", lable: "Posts" },
-  { href: "/admin/users", lable: "Users" },
-  { href: "/admin/comments", lable: "Comments" },
-  { href: "/admin/contact", lable: "Contact" },
+  { href: "/admin", label: "Dashboard" },
+  { href: "/admin/posts", label: "Posts" },
+  { href: "/admin/users", label: "Users" },
+  { href: "/admin/comments", label: "Comments" },
+  { href: "/admin/contact", label: "Contact" },
 ];
 
 const AdminLayout: FC<Props> = ({ children }) => {

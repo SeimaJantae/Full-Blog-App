@@ -4,7 +4,7 @@ import React, { FC } from "react";
 type Props = {
   navItems: {
     href: string;
-    lable: string;
+    label: string;
   }[];
 };
 
@@ -24,7 +24,7 @@ const AdminNav: FC<Props> = ({ navItems }) => {
             <div key={item.href}>
               <Link href={item.href}>
                 <span className="text-secondary-light hover:text-action">
-                  {item.lable}
+                  {item.label}
                 </span>
               </Link>
             </div>
